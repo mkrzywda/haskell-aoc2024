@@ -21,3 +21,33 @@ cabal.project.local
 cabal.project.local~
 .HTF/
 .ghc.environment.*
+
+# Ignorowanie plików swap edytorów tekstu (np. Vim)
+*.swp
+.*.swp
+
+# Ignorowanie plików tymczasowych edytorów (np. Emacs, Vim)
+*~
+\#*\#
+
+# Ignorowanie plików buildowych Haskella
+*.hi
+*.o
+
+# Ignorowanie plików wykonywalnych (dostosuj nazwę do swojego projektu)
+day01
+
+# Ignorowanie plików systemowych macOS
+.DS_Store
+
+# Ignorowanie katalogu .stack-work, jeśli używasz Stack
+.stack-work/
+
+# Ignorowanie katalogu bin, jeśli generujesz tam pliki wykonywalne
+/bin/
+
+# Ignorowanie innych potencjalnych plików tymczasowych
+*.log
+*.tmp
+
+
